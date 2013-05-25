@@ -33,14 +33,26 @@ public class Main extends JavaPlugin implements Listener
 	@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent event)
 	{
-		pJoin.add(event.getPlayer().getName());
+		Boolean bool = false;
+		String join = event.getPlayer().getDisplayName();
+		for(String i: pJoin)
+		{
+			if(i.equalsIgnoreCase(join)) bool = true;
+		}
+		if(!bool) pJoin.add(join);
 		event.setJoinMessage(null);
 	}
 	
 	@EventHandler
 	public void onPlayerQuit(PlayerQuitEvent event)
 	{
-		pQuit.add(event.getPlayer().getName());
+		Boolean bool = false;
+		String quit = event.getPlayer().getDisplayName();
+		for(String i: pJoin)
+		{
+			if(i.equalsIgnoreCase(quit)) bool = true;
+		}
+		if(!bool) pQuit.add(quit);
 		event.setQuitMessage(null);
 	}
 }
