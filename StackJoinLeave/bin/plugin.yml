@@ -2,3 +2,7 @@ name: StackJoinLeave
 main: net.willhastings.StackJoinLeave.Main
 version: 1.0.0
 author: bill1993
+
+commands:
+  messages:
+    description: Used to toggle the stacked join/leave messages!
