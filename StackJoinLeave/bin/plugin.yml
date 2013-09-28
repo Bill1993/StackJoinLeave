@@ -1,8 +1,9 @@
-name: StackJoinLeave
+name: ${name}
 main: net.willhastings.StackJoinLeave.Main
-version: 1.0.0
+version: ${version}
 author: bill1993
 
 commands:
-  messages:
-    description: Used to toggle the stacked join/leave messages!
+  stackjoinleave:
+    aliases: [sjl]
+    description: Used to toggle the stacked join/leave messages on, and off.

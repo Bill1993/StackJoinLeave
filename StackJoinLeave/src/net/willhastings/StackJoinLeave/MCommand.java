@@ -16,7 +16,7 @@ public class MCommand implements CommandExecutor
 	private void invalidCommand(CommandSender sender)
 	{
 		sender.sendMessage(ChatColor.RED + "Invalid or Missing Sub-Command!");
-		sender.sendMessage("/messages toggle");
+		sender.sendMessage("/stackjoinleave toggle");
 	}
 
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String args[]) 
