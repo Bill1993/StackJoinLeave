@@ -4,6 +4,7 @@ StackJoinLeave
 Stack Join\Leave messages in your server.
 A server I play on was tierd of the constant join/leave messeges, so I threw this togeather super fast, and decided that other people might like to use it.
 It is not officialy released anywhere, so if you want to use it, you will have to download the source and compile it yourself!!!
+Or download it from my Jenkins CI http://ci.willhastings.net/job/StackJoinLeave/
 
 
 Every 3 minutes if 1 player has joined it will say,
